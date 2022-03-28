@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Producto extends Model
 {
-    //
     protected $table = 'productos';
     protected $guarded  = [
         'status',
@@ -26,7 +25,7 @@ class Producto extends Model
         return $product;
     }
 
- 
+    // Update product 
     public static function updateProduct($params = []){
 
         $id     = isset($params['idproduct'])     ? $params['idproduct']     : null;
@@ -44,6 +43,7 @@ class Producto extends Model
         return $prodUpdt;
     }
 
+    // Delete Product
     public static function deleteProd($params = []){
 
         $id     = isset($params['idproduct'])     ? $params['idproduct'] : null;

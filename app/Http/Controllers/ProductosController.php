@@ -21,6 +21,7 @@ class ProductosController extends Controller
         return view('listprod', $data);
     }
 
+    // Return view insert
     public function create(){
         $data['title'] = 'Insert some product';
         $data['breadUrlCreate'] = '/create-product';
@@ -29,6 +30,7 @@ class ProductosController extends Controller
         return view('insertprod', $data);
     }
 
+    // Method for insert data
     public function insertData(Request $request){
 
         // Validations fields
@@ -82,6 +84,7 @@ class ProductosController extends Controller
         }
     }
 
+    // Delete Data
     public function delete(Request $request)
     { 
         // print_r($request->input());
