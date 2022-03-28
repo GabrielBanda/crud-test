@@ -12,7 +12,7 @@ Para montar el proyecto necesitas:
 -Virtualizar el proyecto con el servidor 
 -En mi caso xampp
 
-/*
+
 Reglas de virtualización:
 
 <VirtualHost *:80> 
@@ -23,7 +23,7 @@ Reglas de virtualización:
   </Directory>
 </VirtualHost>
 
-*/
+
 
 -Modificar el archivo host en windows:
 
