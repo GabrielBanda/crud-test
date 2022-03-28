@@ -38,7 +38,7 @@ ruta: C:\Windows\System32\drivers\etc
 -En el archivo .env verificar ponerle la contraseña debido que no uso password en mi MySql
 
 
-
+--Para la creacion de tablas se usa las migraciones
 
 
 
