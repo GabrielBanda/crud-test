@@ -40,6 +40,8 @@ ruta: C:\Windows\System32\drivers\etc
 
 --Para la creacion de tablas se usa las migraciones
 
+-- Las categorias se ingresan a nivel de base de datos en phpmyadmin
+
 
 
 
